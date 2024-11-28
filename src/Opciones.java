@@ -1,0 +1,4 @@
+
+public enum Opciones {
+	TRANSFERIR, DEPOSITAR, RETIRAR, VER_SALDO, HISTORIAL, LOG_OFF
+}

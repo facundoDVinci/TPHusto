@@ -1,10 +1,10 @@
 import java.time.LocalDateTime;
 
-public class Movimiento {
+public class Movimiento{
 	private LocalDateTime fecha;
 	private String detalle; 
 	private Cliente cliente;
-	public Movimiento(LocalDateTime fecha, String detalle, Cliente cliente) {
+	public Movimiento(LocalDateTime fecha, String detalle,Cliente cliente) {
 		super();
 		this.fecha = fecha;
 		this.detalle = detalle;
@@ -30,6 +30,6 @@ public class Movimiento {
 	}
 	@Override
 	public String toString() {
-		return "Movimiento [fecha=" + fecha + ", detalle=" + detalle + ", cliente=" + cliente + "]";
+		return "Movimiento [Cuenta= " + cliente.getNombre() + " Fecha= " + fecha + ", detalle= " + detalle + "] \n";
 	}
 }
